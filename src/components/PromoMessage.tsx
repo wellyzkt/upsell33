@@ -53,16 +53,6 @@ const PromoMessage: React.FC = () => {
   return (
     <div className="text-center px-4 py-6 max-w-7xl mx-auto">
       <div className="mb-8">
-        <h2 className="text-3xl font-bold text-white mb-4">✅ Obrigado pela sua compra!</h2>
-        <p className="text-xl text-gray-300 mb-2">Seja muito bem-vindo(a)!</p>
-        <p className="text-lg text-gray-300 mb-2">
-          Seus dados de acesso à área de membros foram enviados para o seu e-mail.
-        </p>
-        <p className="text-lg text-gray-300 mb-4">
-          Caso tenha qualquer dúvida ou problema, entre em contato com nosso suporte:<br />
-          <a href="mailto:wztkvendas@gmail.com" className="text-[#FF0000] hover:underline">📩 wztkvendas@gmail.com</a>
-        </p>
-
         <div className="flex flex-col items-center gap-2">
           <div className="animate-pulse text-2xl font-bold text-yellow-400">⚠️ ATENÇÃO</div>
           <div className="text-xl font-bold text-green-400">🎁 BÔNUS EXCLUSIVO LIBERADO</div>
