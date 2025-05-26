@@ -20,21 +20,9 @@ const PromoMessage: React.FC = () => {
     script.async = true;
     document.body.appendChild(script);
 
-    // Add click handler for downsell button
-    const handleDownsell = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (target.classList.contains('fornpay_downsell')) {
-        e.preventDefault();
-        window.location.href = 'https://tecnicasedesejo.shop/promocaoexclusiva2/';
-      }
-    };
-
-    document.addEventListener('click', handleDownsell);
-
     return () => {
       clearInterval(timer);
       document.body.removeChild(script);
-      document.removeEventListener('click', handleDownsell);
     };
   }, []);
 
@@ -121,13 +109,9 @@ const PromoMessage: React.FC = () => {
           SIM, EU ACEITO ESSA OFERTA
         </a>
         <a 
-          href="javascript:void(0)" 
-          data-downsell="null" 
-          className="fornpay_downsell text-[#FF0000] font-arial text-base text-center block hover:underline"
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.href = 'https://tecnicasedesejo.shop/promocaoexclusiva2/';
-          }}
+          href="https://tecnicasedesejo.shop/promocaoparaselecionados/" 
+          className="text-[#ff0000] hover:text-[#ff0000] font-arial text-base text-center block hover:underline"
+          style={{ color: '#ff0000' }}
         >
           Vou recusar essa oferta
         </a>
