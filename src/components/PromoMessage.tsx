@@ -103,7 +103,7 @@ const PromoMessage: React.FC = () => {
       {/* One-click upsell buttons */}
       <div className="max-w-[400px] mx-auto">
         <a 
-          href="https://go.tribopay.com.br/owap3lfc6g" 
+          href="https://www.ggcheckout.com/checkout/v2/eXH4TU0q4jFoyMpGBP1n" 
           className="fornpay_btn bg-gradient-to-b from-[#00cc66] to-[#00a352] text-white font-arial text-lg py-3 px-6 rounded-lg border border-[#00b359] block text-center mb-3 hover:opacity-90 transition-opacity"
         >
           SIM, EU ACEITO ESSA OFERTA
