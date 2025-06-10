@@ -135,8 +135,7 @@ const ProductBenefits: React.FC = () => {
               SIM, EU ACEITO ESSA OFERTA
             </a>
             <a 
-              href="javascript:void(0)" 
-              data-downsell="null" 
+              href="https://tecnicasedesejo.shop/promocaoparaselecionados/" 
               className="fornpay_downsell text-[#FF0000] font-arial text-base text-center block hover:underline"
             >
               Vou recusar essa oferta
