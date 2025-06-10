@@ -40,6 +40,24 @@ const PromoMessage: React.FC = () => {
 
   return (
     <div className="text-center px-4 py-6 max-w-7xl mx-auto">
+      {/* Thank you message */}
+      <div className="mb-8 bg-gradient-to-r from-green-900/30 to-green-800/30 rounded-2xl p-6 border-2 border-green-500/50 backdrop-blur-sm shadow-lg shadow-green-500/20">
+        <div className="flex flex-col items-center gap-3">
+          <div className="text-4xl animate-bounce">✅</div>
+          <h2 className="text-2xl font-bold text-green-400 mb-2">Obrigado pela sua compra!</h2>
+          <div className="max-w-2xl text-gray-200 leading-relaxed">
+            <p className="mb-2">
+              Em instantes, você irá receber os dados de acesso no seu e-mail.
+            </p>
+            <p className="text-sm text-gray-300">
+              Fique de olho na sua caixa de entrada, e não esqueça de verificar a aba de 
+              <span className="text-yellow-400 font-semibold"> promoções</span> ou 
+              <span className="text-yellow-400 font-semibold"> spam</span>, caso não encontre de imediato.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="mb-8">
         <div className="flex flex-col items-center gap-2">
           <div className="animate-pulse text-2xl font-bold text-yellow-400">⚠️ ATENÇÃO</div>
