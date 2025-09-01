@@ -14,9 +14,9 @@ const PromoMessage: React.FC = () => {
       });
     }, 1000);
 
-    // Add script for one-click upsell
+    // Add script for Pepper Pay one-click upsell
     const script = document.createElement('script');
-    script.src = 'https://app.tribopay.com.br/js/oneclick.js';
+    script.src = 'https://app.pepperpay.com.br/js/oneclick.js';
     script.async = true;
     document.body.appendChild(script);
 
@@ -121,15 +121,16 @@ const PromoMessage: React.FC = () => {
       {/* One-click upsell buttons */}
       <div className="max-w-[400px] mx-auto">
         <a 
-          href="https://www.ggcheckout.com/checkout/v2/eXH4TU0q4jFoyMpGBP1n" 
-          className="fornpay_btn bg-gradient-to-b from-[#00cc66] to-[#00a352] text-white font-arial text-lg py-3 px-6 rounded-lg border border-[#00b359] block text-center mb-3 hover:opacity-90 transition-opacity"
+          href="javascript:void(0)" 
+          data-pepper="c28qldvojs" 
+          className="pepper_btn"
         >
           SIM, EU ACEITO ESSA OFERTA
         </a>
         <a 
-          href="https://tecnicasedesejo.shop/promocaoparaselecionados/" 
-          className="text-[#ff0000] hover:text-[#ff0000] font-arial text-base text-center block hover:underline"
-          style={{ color: '#ff0000' }}
+          href="javascript:void(0)" 
+          data-downsell="null" 
+          className="pepper_downsell"
         >
           Vou recusar essa oferta
         </a>
