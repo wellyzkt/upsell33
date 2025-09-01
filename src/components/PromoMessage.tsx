@@ -122,14 +122,14 @@ const PromoMessage: React.FC = () => {
       <div className="max-w-[400px] mx-auto">
         <a 
           href="javascript:void(0)" 
-          data-pepper="c28qldvojs" 
+          data-pepper="ewptnv6ram" 
           className="pepper_btn"
         >
           SIM, EU ACEITO ESSA OFERTA
         </a>
         <a 
           href="javascript:void(0)" 
-          data-downsell="null" 
+          data-downsell="https://tecnicasedesejo.shop/promocaoparaselecionados/" 
           className="pepper_downsell"
         >
           Vou recusar essa oferta
